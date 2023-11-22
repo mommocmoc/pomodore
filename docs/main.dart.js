@@ -51810,7 +51810,7 @@ A.Ql.prototype={}
 A.yd.prototype={
 S(a){return new A.pA(B.wm,A.a5l(null,B.hJ,A.ab4(B.hI,B.W,B.hJ,B.hI),B.GC,null),null)}}
 A.p2.prototype={
-aE(){return new A.tf(A.aaz(),3,B.n)}}
+aE(){return new A.tf(A.aaz(),1500,B.n)}}
 A.tf.prototype={
 Ut(a){var s=this
 if(s.e===0){a.aL(0)
@@ -51842,7 +51842,7 @@ Ul(){this.av(new A.Wi(this))},
 S(a){var s,r,q,p=this,o=null,n=A.bz(a),m=A.a_P(B.fy,A.a11(J.aam(B.b.gD(A.bT(0,0,p.e).i(0).split(".")),2),A.kI(o,o,A.bz(a).at,o,o,o,o,o,o,o,o,89,o,o,B.cx,o,o,!0,o,o,o,o,o,o,o,o)),o,o,o,o,o,o),l=A.bz(a),k=p.r,j=k?p.gUh():p.gUq()
 k=k?B.wp:B.wq
 j=A.a0g(l.at,new A.lL(k,o),120,j)
-l=p.e<3?A.a0g(A.bz(a).at,B.i1,30,p.gUm()):B.t5
+l=p.e<1500?A.a0g(A.bz(a).at,B.i1,30,p.gUm()):B.t5
 k=t.nA
 l=A.a_F(A.a_K(A.a([j,l],k),B.ne),o,o)
 j=A.bz(a)
@@ -51853,7 +51853,7 @@ return new A.qH(A.a_K(A.a([new A.jM(1,B.e4,m,o),new A.jM(2,B.e4,l,o),new A.jM(1,
 A.Wl.prototype={
 $0(){var s=this.a;++s.f
 s.r=!1
-s.e=3
+s.e=1500
 s.d.cE(0)},
 $S:0}
 A.Wm.prototype={
@@ -51871,7 +51871,7 @@ $S:0}
 A.Wj.prototype={
 $0(){var s=this.a
 s.r=!1
-s.e=3},
+s.e=1500},
 $S:0}
 A.Wi.prototype={
 $0(){this.a.f=0},

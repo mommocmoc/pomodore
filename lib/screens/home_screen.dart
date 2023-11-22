@@ -11,7 +11,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   final player = AudioPlayer();
-  static int defaultSeconds = 3;
+  static int defaultSeconds = 1500;
   int totalSeconds = defaultSeconds;
   int totalPomodoros = 0;
   bool isTimerRunning = false;
